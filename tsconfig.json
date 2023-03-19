@@ -16,6 +16,9 @@
     "baseUrl": "./src",
     "paths": {
       "@/*": ["./*"],
+      "@/types": ["./../types"],
+      "@/env": ["./../env"],
+      "@/.tina/*": [".tina/*"],
     },
     "incremental": true
   },
