@@ -7,7 +7,7 @@ import Container from 'components/Container';
 import OverTitle from 'components/OverTitle';
 import SectionTitle from 'components/SectionTitle';
 import { useResizeObserver } from 'hooks/useResizeObserver';
-import { SingleArticle } from 'types';
+import { SingleArticle } from '@/types';
 import { media } from 'utils/media';
 
 interface ScrollableBlogPostsProps {

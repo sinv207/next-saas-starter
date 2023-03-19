@@ -5,7 +5,7 @@ import styled from 'styled-components';
 import { staticRequest } from 'tinacms';
 import Container from 'components/Container';
 import MDXRichText from 'components/MDXRichText';
-import { NonNullableChildrenDeep } from 'types';
+import { NonNullableChildrenDeep } from '@/types';
 import { formatDate } from 'utils/formatDate';
 import { media } from 'utils/media';
 import { getReadTime } from 'utils/readTime';
